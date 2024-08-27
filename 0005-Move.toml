@@ -1,9 +1,10 @@
 [package]
-name = "Calculator"
-version = "0.0.0"
-
-[addresses]
-calculator_project = "0xcafe"
+name = 'calculator'
+version = '1.0.0'
 
 [dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
+
+[addresses]
+must = "0x0ec3e9fc7edf5cdd63d13454fb7dd5c72965af20bb0fd63c34bd6948c7b6d325"
+std = "0x1"
