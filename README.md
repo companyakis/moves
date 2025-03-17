@@ -1,2 +1,1 @@
-# aptos
-Aptos Move 
+# Move Smart Contracts
