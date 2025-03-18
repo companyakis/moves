@@ -1,0 +1,16 @@
+[package]
+name = "learnMove"
+version = "1.0.0"
+authors = []
+
+[addresses]
+mustafa="0x4977187ee5ce9c0c745d87e63690e84fdc33886e74e2bca7953fff938f24ba5d"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
